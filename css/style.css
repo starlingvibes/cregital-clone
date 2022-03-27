@@ -46,6 +46,19 @@ a {
     text-align: center;
     font-size: 20px;
 }
+
+.elementor-text-paragraph {
+    text-align:justify;
+    padding-top: 220px;
+    padding-right: 150px;
+    padding-left: 9px;
+    margin-left:0px;
+    margin-right: 10px;
+    font-family: "IBM Plex Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
 .container {
     display:grid;
     grid-template-columns: 0.5fr 0.5fr;
@@ -70,6 +83,14 @@ a {
     position:relative;
 }
 
+a {
+    text-decoration: underline;
+    color:#1c1c1b;
+    box-shadow:none;
+    box-sizing:border-box;
+    background-color: transparent;
+}
+
 h2 {
     display: block;
     font-size: 1.5em;
@@ -84,6 +105,19 @@ img {
     width:484.5px;
     height: 600px;
     border-radius: 10%;
+}
+
+.the-team {
+    height:854px;
+    width:1140px;
+    border-radius:0%;
+    position:relative;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-right:20px;
+    padding-left:10px;
+    display:block;
 }
 
 p {
