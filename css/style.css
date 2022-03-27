@@ -2,19 +2,6 @@
     --page-title-display: block;
 }
 
-@media (max-width: 767px)
-.elementor-36 .elementor-element.elementor-element-63cfb418 .elementor-heading-title {
-    font-size: 45px;
-    line-height: 1.2em;
-}
-
-@media (max-width: 767px)
-.elementor-36 .elementor-element.elementor-element-2c674e09 {
-    text-align: center;
-    font-size: 18px;
-    line-height: 1.7em;
-}
-
 body {
     margin: 0;
     font-family: 'DM Sans', sans-serif;
@@ -27,6 +14,62 @@ body {
 
 a {
     box-shadow:none;
+    text-decoration: none;
+}
+
+.logo {
+    width:40px;
+    height:40px;
+    margin-top:0px;
+    margin-left:40px;
+    position:fixed;
+    padding-top:50px;
+    z-index:2;
+}
+
+.menu-botton {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding-top:80px;
+    margin-top:0px;
+    margin-right:0px;
+    position:fixed;
+    top:0px;
+    right:auto;
+    z-index: 2;
+}
+
+.upper-nav {
+    font-family: "IBM Plex Sans", Sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    display:inline-block;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.menu-text {
+    text-decoration: none !important;
+    font-size: 20px;
+    padding-left:850px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align:left;
+    font-weight: 700;
+}
+
+.menu-botton-img {
+    width:28px;
+    height:20px;
+    display:inline;
+    margin-right:0px;
+    padding-left:200px;
+    top:40px;
+}
+
+.no-underline {
     text-decoration: none;
 }
 .elementor-heading-title {
@@ -61,7 +104,7 @@ a {
 
 .container {
     display:grid;
-    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-columns: repeat(2, 1fr);
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -182,6 +225,7 @@ img {
     padding-right:20px;
     padding-left:10px;
     display:block;
+    z-index: 1;
 }
 
 p {
@@ -193,4 +237,10 @@ p {
     padding-top:0px;
     margin-top:0;
     margin-bottom:0.9rem;
+}
+
+@media (max-width: 767px)
+.elementor-heading-title {
+    font-size: 45px;
+    line-height: 1.2em;
 }
